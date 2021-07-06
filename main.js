@@ -60,4 +60,22 @@ const noSee = document.querySelector();
 noSee.invsiible
 }
 
-//
+//Part Three - Creating DOM Elements
+//These functions will return new DOM elements.
+
+//Write a function that takes in text and returns a new <li> with the given text parameter as its innerText.
+function textInTake(string){
+const inTake = document.querySelector("li");
+if(string){
+    return inTake.push
+}
+
+}
+
+//Write a function that takes in two strings, one representing a header size and one some text, and returns a new header of that size (e.g., a '3' for the first parameter should result in an <h3>) with that text in it.
+
+function headerAdjustment(header, text){
+const headerChange = document.querySelector("h3")
+text.styly.fontSize = "24px";
+
+}return headerChange;
